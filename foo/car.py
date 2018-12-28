@@ -17,6 +17,9 @@ class Car(object):
         x = 10*random.uniform(0.0,1.0)
         print('x is {:1.2f}'.format(x))
         
+        s = 'temp= {:1.2f}'.format(x)
+        print(s)
+        
         y = random.uniform(0,100)
         print('y is {}'.format(y))
         
