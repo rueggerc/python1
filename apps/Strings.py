@@ -70,6 +70,7 @@ def main():
     print("result is {:05.2f}".format(result))
     
     # f-strings
+    # f-string literals
     # python 3.6
     # formatted string literals
     name="Chris"
@@ -77,6 +78,14 @@ def main():
     age = 25
     print(f"Hello {name} your age is {age}")
     
+    # Alignment
+    print()
+    print("{0:8} | {1:9}".format("Fruit","Quantity"))
+    print("{0:8} | {1:9}".format("Apples",3.))
+    print("{0:8} | {1:9}".format("Oranges",10))
+    
+    # Exercise
+    print("Python {rules}".format(rules="Rules"))
    
 
 if __name__ == '__main__':
