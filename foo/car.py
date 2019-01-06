@@ -3,8 +3,6 @@ from random import randint
 
 class Car(object):
 
-
-
     def __init__(self, params):
         print("Car Constructor")
         '''
