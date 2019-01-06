@@ -61,9 +61,21 @@ def main():
     # Formatting by Keyword
     print("the {quick} {brown} {fox} ran at {speed} mph".format(fox="fox",brown="brown",quick="quick",speed=35))
     
+    # Floating Point
+    # {value:width.precisionf}
+    result=100/777
+    print(result)
+    print("result is {r:5.2f}".format(r=result))
+    print("result is {r:05.2f}".format(r=result))
+    print("result is {:05.2f}".format(result))
+    
     # f-strings
-    
-    
+    # python 3.6
+    # formatted string literals
+    name="Chris"
+    print(f"Hello {name}")
+    age = 25
+    print(f"Hello {name} your age is {age}")
     
    
 
